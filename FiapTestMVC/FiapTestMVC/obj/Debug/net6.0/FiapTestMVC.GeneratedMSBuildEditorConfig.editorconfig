@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FiapTestMVC
+build_property.RootNamespace = FiapTestMVC
+build_property.ProjectDir = C:\Users\gui11\source\repos\FiapTestMVC\FiapTestMVC\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\gui11\source\repos\FiapTestMVC\FiapTestMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/gui11/source/repos/FiapTestMVC/FiapTestMVC/Views/Aluno/CriaAluno.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9cQ3JpYUFsdW5vLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gui11/source/repos/FiapTestMVC/FiapTestMVC/Views/Aluno/EditarAluno.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9cRWRpdGFyQWx1bm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gui11/source/repos/FiapTestMVC/FiapTestMVC/Views/Aluno/ListaAluno.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9cTGlzdGFBbHVuby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gui11/source/repos/FiapTestMVC/FiapTestMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gui11/source/repos/FiapTestMVC/FiapTestMVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gui11/source/repos/FiapTestMVC/FiapTestMVC/Views/Relacao/CriaRelacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYWNhb1xDcmlhUmVsYWNhby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gui11/source/repos/FiapTestMVC/FiapTestMVC/Views/Relacao/EditarRelacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYWNhb1xFZGl0YXJSZWxhY2FvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gui11/source/repos/FiapTestMVC/FiapTestMVC/Views/Relacao/ListaRelacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYWNhb1xMaXN0YVJlbGFjYW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gui11/source/repos/FiapTestMVC/FiapTestMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gui11/source/repos/FiapTestMVC/FiapTestMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gui11/source/repos/FiapTestMVC/FiapTestMVC/Views/Turma/CriaTurma.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybWFcQ3JpYVR1cm1hLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gui11/source/repos/FiapTestMVC/FiapTestMVC/Views/Turma/EditarTurma.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybWFcRWRpdGFyVHVybWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gui11/source/repos/FiapTestMVC/FiapTestMVC/Views/Turma/ListaTurma.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybWFcTGlzdGFUdXJtYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gui11/source/repos/FiapTestMVC/FiapTestMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gui11/source/repos/FiapTestMVC/FiapTestMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gui11/source/repos/FiapTestMVC/FiapTestMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-geoc9d2iuc

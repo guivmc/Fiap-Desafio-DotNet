@@ -1,0 +1,49 @@
+﻿@model IEnumerable<FiapTestWeb.Models.AlunoModel>
+
+<div class="text-center">
+    <h1 class="display-4">Lista de Alunos</h1>
+</div>
+
+@if(Model != null && Model.Count() > 0) {
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Usuario)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Usuario)
+                </td>
+                <td>
+                    <a asp-action="Editar" asp-route-id="@item.ID">Editar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+}
+else
+{
+    <div class="text-center">
+        <p class="display-4">Não existem Alunos.</p>
+    </div>
+}

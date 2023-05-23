@@ -1,0 +1,38 @@
+﻿@model FiapTestWeb.Models.RelacaoModel
+
+<div class="text-center">
+    <h1 class="display-4">Cria Relacao</h1>
+</div>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        @using (Html.BeginForm("CriaRelacao", "Relacao", FormMethod.Post))
+        {
+            <div class="form-group">
+                <label class="control-label">Aluno: </label>
+                @Html.DropDownListFor(
+            m => m.AlunoID,
+            new SelectList(
+            Model.Alunos!.Select(x => new { Value = x.ID, Text = x.Nome }),
+            "Value",
+            "Text"
+            ))
+            </div>
+            <br />
+            <div class="form-group">
+                <label class="control-label">Turma: </label>
+                @Html.DropDownListFor(
+            m => m.TurmaID,
+            new SelectList(
+            Model.Turmas!.Select(x => new { Value = x.ID, Text = x.Turma }),
+            "Value",
+            "Text"
+            ))
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        }
+    </div>
+</div>

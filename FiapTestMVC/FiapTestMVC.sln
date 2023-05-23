@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiapTestMVC", "FiapTestMVC\FiapTestMVC.csproj", "{B0314D39-2419-4A18-A594-0E2D25CF92FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0314D39-2419-4A18-A594-0E2D25CF92FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0314D39-2419-4A18-A594-0E2D25CF92FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0314D39-2419-4A18-A594-0E2D25CF92FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0314D39-2419-4A18-A594-0E2D25CF92FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39DE40B4-E065-4797-ACDF-06887524E77F}
+	EndGlobalSection
+EndGlobal

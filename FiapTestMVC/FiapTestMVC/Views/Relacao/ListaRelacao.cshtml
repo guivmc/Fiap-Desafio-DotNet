@@ -1,0 +1,56 @@
+﻿@model IEnumerable<FiapTestWeb.Models.RelacaoModel>
+
+<div class="text-center">
+    <h1 class="display-4">Lista de Relações</h1>
+</div>
+
+@if (Model != null && Model.Count() > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.AlunoID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AlunoNome)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TurmaID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TurmaNome)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AlunoID)
+                    </td>
+                    <td>
+                        <a class="nav-link text-dark" asp-controller="Aluno" asp-action="Editar" asp-route-id="@item.AlunoID"> @Html.DisplayFor(modelItem => item.AlunoNome) </a>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TurmaID)
+                    </td>
+                    <td>
+                        <a class="nav-link text-dark" asp-controller="Turma" asp-action="EditarTurmaAsync" asp-route-id="@item.TurmaID">@Html.DisplayFor(modelItem => item.TurmaNome)</a>
+                    </td>
+                    <td>
+                        <a asp-action="Editar" asp-route-id="@item.AlunoID">Editar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="text-center">
+        <p class="display-4">Não existem Relações.</p>
+    </div>
+}

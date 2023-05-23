@@ -1,0 +1,54 @@
+﻿@model IEnumerable<FiapTestWeb.Models.TurmaModel>
+
+<div class="text-center">
+    <h1 class="display-4">Lista de Turmas</h1>
+</div>
+
+@if(Model != null && Model.Count() > 0) {
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CursoID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Turma)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ano)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CursoID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Turma)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ano)
+                </td>
+                <td>
+                        <a asp-controller="Turma" asp-action="EditarTurmaAsync" asp-route-id="@item.ID">Editar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+}
+else{
+    <div class="text-center">
+        <p class="display-4">Não existem Turmas.</p>
+    </div>
+}

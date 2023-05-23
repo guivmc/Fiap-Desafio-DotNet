@@ -1,0 +1,36 @@
+﻿@model FiapTestWeb.Models.RelacaoModel
+
+<div class="text-center">
+    <h1 class="display-4">Edita Relação</h1>
+</div>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        @using (Html.BeginForm("EditarRelacao", "Relacao", FormMethod.Post))
+        {
+            <div class="form-group">
+                <label class="control-label">Aluno: @Model.AlunoNome</label>
+                <input type="hidden" asp-for="AlunoID" />
+            </div>
+            <br />
+            <div class="form-group">
+                <label class="control-label">Turma: </label>
+                @Html.DropDownListFor(
+            m => m.TurmaID,
+            new SelectList(
+            Model.Turmas!.Select(x => new { Value = x.ID, Text = x.Turma }),
+            "Value",
+            "Text"
+            ))
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        }
+    </div>
+</div>
+<hr />
+<div>
+    <a class="btn btn-primary" href="@Url.Action("DeltaRelacaoAsync", "Relacao", new{ id =  Model.AlunoID})">Deletar</a>
+</div>
